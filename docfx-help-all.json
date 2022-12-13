@@ -9,7 +9,7 @@
       },
       {
         "src":"user-guide/en",
-        "dest": "help/en",
+        "dest": "en/learn",
         "files": [
           "**/**.{md,yml}",
           "toc.yml",
@@ -18,7 +18,7 @@
       },
       {
         "src":"user-guide/no",
-        "dest": "help/no",
+        "dest": "no/learn",
         "files": [
           "**/**.{md,yml}",
           "toc.yml",
@@ -27,7 +27,7 @@
       },
       {
         "src":"user-guide/da",
-        "dest": "help/da",
+        "dest": "da/learn",
         "files": [
           "**/**.{md,yml}",
           "toc.yml",
@@ -36,7 +36,7 @@
       },
       {
         "src":"user-guide/se",
-        "dest": "help/se",
+        "dest": "se/learn",
         "files": [
           "**/**.{md,yml}",
           "toc.yml",
@@ -45,7 +45,7 @@
       },
       {
         "src":"user-guide/de",
-        "dest": "help/de",
+        "dest": "de-learn",
         "files": [
           "**/**.{md,yml}",
           "toc.yml",
@@ -54,7 +54,7 @@
       },
       {
         "src":"user-guide/nl",
-        "dest": "help/nl",
+        "dest": "nl/learn",
         "files": [
           "**/**.{md,yml}",
           "toc.yml",
@@ -64,7 +64,23 @@
     ],
     "resource": [
       {
-        "files": ["**/**.{png,svg,jpg,gif,bmp,zip}"]
+        "src":"user-guide",
+        "dest":"media",
+        "files": [
+          "images/**",
+          "media/**",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.bmp",
+          "**/*.pdf"
+        ]
+      },
+      {
+        "src":"common/icons/",
+        "dest":"media",
+        "files": "**/*.png"
       },
       {
         "files": [ "assets/**" ]
@@ -73,10 +89,11 @@
     "xref": [
       "No"
     ],
-    "dest": "help/_site",
+    "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
+      "default",
       "./templates/superoffice"
     ],
     "postProcessors": [],
@@ -86,7 +103,7 @@
     "cleanupCacheHistory": true,
     "disableGitFeatures": false,
     "globalMetadata": {
-      "_appTitle": "SuperOffice Help Files",
+      "_appTitle": "SuperOffice User Guide",
       "_appFooter": "© SuperOffice. All rights reserved.",
       "_appLogoPath": "assets/images/logo.svg",
       "_appFaviconPath": "assets/images/favicon.ico",

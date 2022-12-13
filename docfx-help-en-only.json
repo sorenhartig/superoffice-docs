@@ -2,18 +2,16 @@
   "build": {
     "content": [
       {
-        "src":"user-guide",
-        "dest":"help",
+        "src":"user-guide/en",
+        "dest":"en/learn/",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude": [
-          "**/includes/**, no/**"
-        ]
+        "exclude": [ "**/includes/**" ]
       }
     ],
     "resource": [
       {
         "src":"user-guide",
-        "dest":"help",
+        "dest":"media",
         "files": [
           "images/**",
           "media/**",
@@ -22,19 +20,16 @@
           "**/*.jpg",
           "**/*.gif",
           "**/*.bmp",
-          "**/*.xlsx",
-          "**/*.zip",
-          "**/*.dll",
-          "**/*.docx",
-          "**/*.pdf",
-          "**/*.pptx",
-          "**/*.app"
+          "**/*.pdf"
         ]
       },
       {
         "src":"common/icons/",
-        "dest":"help/media",
+        "dest":"media",
         "files": "**/*.png"
+      },
+      {
+        "files": [ "assets/**" ]
       }
     ],
     "xref": [
@@ -45,7 +40,8 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "./build-docs/templates/superoffice"
+      "./build-docs/templates/superoffice",
+      "../templates/superoffice"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
@@ -54,7 +50,7 @@
     "cleanupCacheHistory": true,
     "disableGitFeatures": false,
     "globalMetadata": {
-      "_appTitle": "SuperOffice Help Files",
+      "_appTitle": "SuperOffice User Guide",
       "_appFooter": "© SuperOffice. All rights reserved.",
       "_appLogoPath": "assets/images/logo.svg",
       "_appFaviconPath": "assets/images/favicon.ico",

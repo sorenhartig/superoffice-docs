@@ -9,6 +9,8 @@ items:
     href: associate.md
   - name: Person picture and BLOBs
     href: blob-pictures.md
+  - name: User guide
+    href: ../../user-guide/en/person/toc.yml
   - name: API options
     href: howto/index.md
     items:

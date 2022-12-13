@@ -9,6 +9,8 @@ items:
     href: interests.md
   - name: Category list
     href: category-list.md
+  - name: User guide
+    href: ../../user-guide/en/company/toc.yml
   - name: API options
     href: howto/index.md
     items:
