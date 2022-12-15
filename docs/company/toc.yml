@@ -15,27 +15,24 @@ items:
   - name: How to...
     expanded: true
     items:
-    - name: User guide
-      expanded: true
-      items:
-      - name: Create new company
-        href: ../../user-guide/en/company/create.md
-      - name: Edit a company
-        href: ../../user-guide/en/company/edit.md
-      - name: Copy a company
-        href: ../../user-guide/en/company/copy.md
-      - name: Merge companies
-        href: ../../user-guide/en/company/merge-companies.md
-      - name: Delete a company
-        href: ../../user-guide/en/company/delete.md
-      - name: Print company info
-        href: ../../user-guide/en/company/print.md
-      - name: Add a relation
-        href: ../../user-guide/en/company/add-relation.md
-      - name: Delete a relation
-        href: ../../user-guide/en/company/delete-relation.md
-      - name: Change the rank of contacts
-        href: ../../user-guide/en/company/change-rank-of-contacts.md
+    - name: Create new company
+      href: ../../user-guide/en/company/create.md
+    - name: Edit a company
+      href: ../../user-guide/en/company/edit.md
+    - name: Copy a company
+      href: ../../user-guide/en/company/copy.md
+    - name: Merge companies
+      href: ../../user-guide/en/company/merge-companies.md
+    - name: Delete a company
+      href: ../../user-guide/en/company/delete.md
+    - name: Print company info
+      href: ../../user-guide/en/company/print.md
+    - name: Add a relation
+      href: ../../user-guide/en/company/add-relation.md
+    - name: Delete a relation
+      href: ../../user-guide/en/company/delete-relation.md
+    - name: Change the rank of contacts
+      href: ../../user-guide/en/company/change-rank-of-contacts.md
     - name: API options overview
       href: howto/index.md
     - name: CRMScript
