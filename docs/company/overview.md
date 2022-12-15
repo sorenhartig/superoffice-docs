@@ -3,7 +3,7 @@ uid: company-overview
 title: Working with companies
 description: The company card uses the contact table and its related tables. There are multiple person records for any contact.
 author: Bergfrid Skaara Dias
-so.date: 02.21.2022
+so.date: 12.15.2022
 so.topic: concept
 keywords: company, person, contact
 ---
@@ -33,6 +33,22 @@ It is this relationship that drives the first to fields in the appointment, sale
 * [projects][13]
 * [sales][14]
 
+## Concepts
+
+* [Interests][1]
+* [Categories][15]
+* [Addresses][3]
+* [Associates][16]
+
+## User guide
+
+* [Create a new company][22]
+* [Edit a company][23]
+* [Copy a company][24]
+* [Merge companies][25]
+* [Delete a company][26]
+* [Print a company][27]
+
 ## API how-tos
 
 * [CRMScript][4]
@@ -41,13 +57,6 @@ It is this relationship that drives the first to fields in the appointment, sale
 * [Rows][7]
 * [Objectified SQL][8]
 * [Raw SQL][9]
-
-## More
-
-* [Interests][1]
-* [Categories][15]
-* [Addresses][3]
-* [Associates][16]
 
 <!-- Referenced links -->
 [1]: interests.md
@@ -66,6 +75,13 @@ It is this relationship that drives the first to fields in the appointment, sale
 [14]: ../sale/index.yml
 [15]: category-list.md
 [16]: ../contact/associate.md
+
+[22]: ../../user-guide/en/company/create.md
+[23]: ../../user-guide/en/company/edit.md
+[24]: ../../user-guide/en/company/copy.md
+[25]: ../../user-guide/en/company/merge-companies.md
+[26]: ../../user-guide/en/company/delete.md
+[27]: ../../user-guide/en/company/print.md
 
 <!-- Referenced images -->
 [img1]: media/so-contact.gif

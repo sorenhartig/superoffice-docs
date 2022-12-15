@@ -5,15 +5,51 @@ items:
   items:
   - name: Overview
     href: overview.md
-  - name: Associates (employees)
-    href: associate.md
-  - name: Person picture and BLOBs
-    href: blob-pictures.md
-  - name: User guide
-    href: ../../user-guide/en/person/toc.yml
-  - name: API options
-    href: howto/index.md
+  - name: Concepts
+    expanded: true
     items:
+    - name: Associates (employees)
+      href: associate.md
+    - name: GDPR and privacy
+      href: ../../user-guide/en/gdpr/privacy.md
+  - name: How to...
+    expanded: true
+    items:
+    - name: User guide
+      expanded: true
+      items:
+      - name: Create new contact
+        href: ../../user-guide/en/person/create.md
+      - name: Edit a contact
+        href: ../../user-guide/en/person/edit.md
+      - name: Move a contact
+        href: ../../user-guide/en/person/move.md
+      - name: Merge contacts
+        href: ../../user-guide/en/person/merge-contacts.md
+      - name: Delete a contact
+        href: ../../user-guide/en/person/delete.md
+      - name: Send email to a contact
+        href: ../../user-guide/en/person/send-email.md
+      - name: Add relation
+        href: ../../user-guide/en/person/add-relation.md
+      - name: Delete relation
+        href: ../../user-guide/en/person/delete-relation.md
+      - name: Print
+        href: ../../user-guide/en/person/print.md
+      - name: Edit privacy settings for a contact
+        href: ../../user-guide/en/person/gdpr/edit-legal-base.md
+      - name: Send privacy confirmation email
+        href: ../../user-guide/en/person/gdpr/send-privacy-confirmation-email.md
+      - name: Generate personal data report
+        href: ../../user-guide/en/person/gdpr/generate-personal-data-report.md
+      - name: Add consent purpose
+        href: ../../user-guide/en/gdpr/gdpr/add-consent-purpose.md
+      - name: Add legal base
+        href: ../../user-guide/en/gdpr/settings/lists/privacy-legal-base-add.md
+      - name: Add privacy source
+        href: ../../user-guide/en/gdpr/settings/lists/privacy-source-add.md
+    - name: API options overview
+      href: howto/index.md
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
@@ -82,3 +118,21 @@ items:
         href: howto/sql/update-person-sql.md
       - name: Add person picture BLOBs
         href: howto/sql/add-person-picture-blobs-sql.md
+  - name: Reference
+    expanded: true
+    items:
+    - name: Section tabs on contact
+      href: ../../user-guide/en/person/screen/index.md
+      items:
+      - name: Activities
+        href: ../../user-guide/en/person/screen/activities-tab.md
+      - name: Sales
+        href: ../../user-guide/en/person/screen/sales-tab.md
+      - name: Requests
+        href: ../../user-guide/en/person/screen/requests-tab.md
+      - name: Projects
+        href: ../../user-guide/en/person/screen/projects-tab.md
+      - name: Relations
+        href: ../../user-guide/en/person/screen/relations-tab.md
+    - name: Person picture and BLOBs
+      href: blob-pictures.md

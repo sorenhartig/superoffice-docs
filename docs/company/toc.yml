@@ -5,15 +5,39 @@ items:
   items:
   - name: Overview
     href: overview.md
-  - name: Interests
-    href: interests.md
-  - name: Category list
-    href: category-list.md
-  - name: User guide
-    href: ../../user-guide/en/company/toc.yml
-  - name: API options
-    href: howto/index.md
+  - name: Concepts
+    expanded: true
     items:
+    - name: Interests
+      href: interests.md
+    - name: Category list
+      href: category-list.md
+  - name: How to...
+    expanded: true
+    items:
+    - name: User guide
+      expanded: true
+      items:
+      - name: Create new company
+        href: ../../user-guide/en/company/create.md
+      - name: Edit a company
+        href: ../../user-guide/en/company/edit.md
+      - name: Copy a company
+        href: ../../user-guide/en/company/copy.md
+      - name: Merge companies
+        href: ../../user-guide/en/company/merge-companies.md
+      - name: Delete a company
+        href: ../../user-guide/en/company/delete.md
+      - name: Print company info
+        href: ../../user-guide/en/company/print.md
+      - name: Add a relation
+        href: ../../user-guide/en/company/add-relation.md
+      - name: Delete a relation
+        href: ../../user-guide/en/company/delete-relation.md
+      - name: Change the rank of contacts
+        href: ../../user-guide/en/company/change-rank-of-contacts.md
+    - name: API options overview
+      href: howto/index.md
     - name: CRMScript
       href: howto/crmscript/index.md
       items:
@@ -87,14 +111,34 @@ items:
         href: howto/osql/create-contact-osql.md
       - name: Get category list
         href: howto/osql/get-catlist-sodatareader.md
-    - name: Raw SQL
-      href: howto/sql/index.md
+      - name: Raw SQL
+        href: howto/sql/index.md
+        items:
+        - name: Create contact
+          href: howto/sql/create-contact-sql.md
+        - name: Get contact details
+          href: howto/sql/get-contact-details-sql.md
+        - name: Get interests
+          href: howto/sql/get-interests-sql.md
+        - name: Get category list
+          href: howto/sql/get-catlist-sql.md
+  - name: Reference
+    expanded: true
+    items:
+    - name: Address formats for different countries
+      href: ../../user-guide/en/company/address-formats.md
+    - name: Section tabs on company
+      href: ../../user-guide/en/company/screen/index.md
       items:
-      - name: Create contact
-        href: howto/sql/create-contact-sql.md
-      - name: Get contact details
-        href: howto/sql/get-contact-details-sql.md
-      - name: Get interests
-        href: howto/sql/get-interests-sql.md
-      - name: Get category list
-        href: howto/sql/get-catlist-sql.md
+      - name: Contacts tab
+        href: ../../user-guide/en/company/screen/contacts-tab.md
+      - name: Relations tab
+        href: ../../user-guide/en/company/screen/relations-tab.md
+      - name: Activities tab
+        href: ../../user-guide/en/company/screen/activities-tab.md
+      - name: Projects tab
+        href: ../../user-guide/en/company/screen/projects-tab.md
+      - name: Sales tab
+        href: ../../user-guide/en/company/screen/sales-tab.md
+      - name: Requests tab
+        href: ../../user-guide/en/company/screen/requests-tab.md

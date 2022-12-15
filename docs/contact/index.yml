@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User guide
       itemType: reference
-      url: ../../user-guide/en/person/index.md
+      url: ../../user-guide/en/person/create.md
     # Card
     - title: Template variables
       itemType: reference
