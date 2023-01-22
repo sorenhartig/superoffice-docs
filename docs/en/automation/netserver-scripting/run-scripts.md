@@ -71,6 +71,8 @@ The image below demonstrates setting the `apppool` permissions.
 
 ![x][img3]
 
+In IIS 10 the name is not longer 'APPPOOL\' but it has changed to 'IIS AppPool\'.
+
 ## Video References
 
 * [Scripting in the Web World][1]
